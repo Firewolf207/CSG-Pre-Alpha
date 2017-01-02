@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +14,7 @@ namespace CSG
     
         static void Main(string[] args)
         {
+            string version = "1.0";
             Console.WriteLine("CSG (2017-2018) All Rights Reserved.");
             for (; true; )
             {
@@ -29,7 +30,7 @@ namespace CSG
                 else if (enter == "CMDS" || enter == "cmds")
                 {
                    
-                    Console.WriteLine("\n HELP = Help for CSG \n CMDS = Shows Commands \n TIME = shows current time \n NOTEPAD = Enter CSG notepad \n EXITT = exit CSG notepad \n SETTINGS");
+                    Console.WriteLine("\n HELP = Help for CSG \n CMDS = Shows Commands \n TIME = shows current time \n NOTEPAD = Enter CSG notepad \n EXITT = exit CSG notepad \n SETTINGS = WIP \n SANS = undertale easteregg \n TANK = tank textart");
                 }
                 else if (enter == "TIME" || enter == "time")
                 {
@@ -51,6 +52,18 @@ namespace CSG
                 else if (enter == "SETTINGS" || enter == "settings")
                 {
                     Console.WriteLine("\n Coming Soon");
+                }
+                else if (enter == "VERSION" || enter == "version")
+                {
+                    Console.WriteLine(version);
+                }
+                else if (enter == "SANS" || enter == "sans")
+                {
+                    Console.WriteLine("\n░░░░░░░░██████████████████░░░░████\n░░░░░░░░░░░░░░░░░░████\n░░██░░░░░░░░░░░░░░░░░░░░░░░░░░██\n░░██░░░░░░░░░░░░░░░░░░░░░░░░░░██\n██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██\n██░░░░░░░░░░░░░░░░░░░░██████░░░░██\n██░░░░░░░░░░░░░░░░░░░░██████░░░░██\n██░░░░██████░░░░██░░░░██████░░░░██\n░░██░░░░░░░░░░██████░░░░░░░░░░██\n████░░██░░░░░░░░░░░░░░░░░░██░░████\n██░░░░██████████████████████░░░░██\n██░░░░░░██░░██░░██░░██░░██░░░░░░██\n░░████░░░░██████████████░░░░████\n░░░░░░████░░░░░░░░░░░░░░████\n░░░░░░░░░░██████████████\n ");
+                }
+                else if (enter == "TANK" || enter == "tank")
+                {
+                    Console.WriteLine("\n.........███ ]▄▄▄▄▄▃\n..▂▄▅█████▅▄▃▂\n[███████████████]\n◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤");
                 }
             }
         }
