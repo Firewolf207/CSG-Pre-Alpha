@@ -1,0 +1,6 @@
+c:\users\ben\documents\visual studio 2013\Projects\CSG\CSG\bin\Debug\CSG.exe.config
+c:\users\ben\documents\visual studio 2013\Projects\CSG\CSG\bin\Debug\CSG.exe
+c:\users\ben\documents\visual studio 2013\Projects\CSG\CSG\bin\Debug\CSG.pdb
+c:\users\ben\documents\visual studio 2013\Projects\CSG\CSG\obj\Debug\CSG.csprojResolveAssemblyReference.cache
+c:\users\ben\documents\visual studio 2013\Projects\CSG\CSG\obj\Debug\CSG.exe
+c:\users\ben\documents\visual studio 2013\Projects\CSG\CSG\obj\Debug\CSG.pdb
